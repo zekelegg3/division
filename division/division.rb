@@ -1,5 +1,7 @@
-def dividing(r , |s|)
+def dividing(r , s)
 	r / s
-end 
+	#if s == 0
+		#puts "this problem cannot be solved"
+end
 
 puts dividing(7 , 0)
