@@ -8,7 +8,7 @@ class Division_test < Minitest::Test
 	def test_division_by_zero
 		r = 7
 		s = 0
-		assert_equal(nil, div(r,s))
+		assert_equal("this problem cannot be solved due to division by zero", div(r,s))
 	end 
 
 end 
